@@ -1,12 +1,12 @@
-import React, { FC, memo, useCallback, useEffect, useMemo } from "react";
-import { useNavigate } from "react-router";
-import dayjs from "dayjs";
-import Stack from "@mui/material/Stack";
-import { Avatar, Typography } from "@mui/material";
-import PersonIcon from "@mui/icons-material/Person";
-import { useEmailStore } from "hooks";
-import { IEmail } from "interfaces";
-import { Actions } from "./Actions";
+import React, { FC, memo, useCallback, useEffect, useMemo } from 'react';
+import { useNavigate } from 'react-router';
+import dayjs from 'dayjs';
+import Stack from '@mui/material/Stack';
+import { Avatar, Typography } from '@mui/material';
+import PersonIcon from '@mui/icons-material/Person';
+import { useEmailStore } from 'hooks';
+import { IEmail } from 'interfaces';
+import { Actions } from './Actions';
 
 interface IProps {
   emailId: string;
@@ -41,7 +41,7 @@ export const EmailViewer: FC<IProps> = memo(({ emailId }) => {
 
   const { subject, content, from, date } = email;
 
-  const formattedDate = dayjs(date).format("DD MMM YYYY, hh:mm A");
+  const formattedDate = dayjs(date).format('DD MMM YYYY, hh:mm A');
 
   return (
     <Stack height="100%" width="100%" p={4} spacing={3} boxSizing="border-box">

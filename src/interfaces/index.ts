@@ -1,2 +1,2 @@
-export { type IEmail } from "./IEmail";
-export { type ISender } from "./ISender";
+export { type IEmail } from './IEmail';
+export { type ISender } from './ISender';

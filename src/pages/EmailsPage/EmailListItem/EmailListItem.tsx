@@ -1,15 +1,15 @@
-import React, { FC, memo, useCallback, useMemo } from "react";
-import { generatePath, useNavigate, useParams } from "react-router";
-import ListItemText from "@mui/material/ListItemText";
-import Typography from "@mui/material/Typography";
-import Divider from "@mui/material/Divider";
-import Stack from "@mui/material/Stack";
-import { DEFAULT_FOLDER_ROUTE } from "constants/Router";
-import { IEmail } from "interfaces";
-import { useEmailStore } from "hooks";
-import { formatDate } from "helpers";
-import { ContextualMenu } from "./ContextualMenu";
-import { StyledBadge, StyledListItemButton } from "./styled";
+import React, { FC, memo, useCallback, useMemo } from 'react';
+import { generatePath, useNavigate, useParams } from 'react-router';
+import ListItemText from '@mui/material/ListItemText';
+import Typography from '@mui/material/Typography';
+import Divider from '@mui/material/Divider';
+import Stack from '@mui/material/Stack';
+import { DEFAULT_FOLDER_ROUTE } from 'constants/Router';
+import { IEmail } from 'interfaces';
+import { useEmailStore } from 'hooks';
+import { formatDate } from 'helpers';
+import { ContextualMenu } from './ContextualMenu';
+import { StyledBadge, StyledListItemButton } from './styled';
 
 interface IProps {
   email: IEmail;

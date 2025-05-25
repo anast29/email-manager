@@ -1,61 +1,61 @@
-import dayjs from "dayjs";
-import { IEmail } from "interfaces";
+import dayjs from 'dayjs';
+import { IEmail } from 'interfaces';
 import {
   INBOX_FOLDER,
   STARRED_FOLDER,
   SENT_FOLDER,
   TRASH_FOLDER,
-} from "constants/Folders";
-import { filterByFolder } from "../filterByFolder";
+} from 'constants/Folders';
+import { filterByFolder } from '../filterByFolder';
 
 const mockEmails: IEmail[] = [
   {
-    id: "1",
-    subject: "Test inbox",
-    content: "Test inbox content",
+    id: '1',
+    subject: 'Test inbox',
+    content: 'Test inbox content',
     folder: INBOX_FOLDER,
     isDeleted: false,
     isRead: true,
     isStarred: false,
     date: dayjs().toISOString(),
-    from: { name: "test", email: "test@test.com" },
+    from: { name: 'test', email: 'test@test.com' },
   },
   {
-    id: "2",
-    subject: "Test starred",
-    content: "Test starred comtent",
+    id: '2',
+    subject: 'Test starred',
+    content: 'Test starred comtent',
     folder: INBOX_FOLDER,
     isDeleted: false,
     isRead: false,
     isStarred: true,
     date: dayjs().toISOString(),
-    from: { name: "test", email: "test@test.com" },
+    from: { name: 'test', email: 'test@test.com' },
   },
   {
-    id: "3",
-    subject: "Test sent",
-    content: "Test sent comtent",
+    id: '3',
+    subject: 'Test sent',
+    content: 'Test sent comtent',
     folder: SENT_FOLDER,
     isDeleted: false,
     isRead: true,
     isStarred: false,
     date: dayjs().toISOString(),
-    from: { name: "test", email: "test@test.com" },
+    from: { name: 'test', email: 'test@test.com' },
   },
   {
-    id: "4",
-    subject: "Test trash",
-    content: "Test trash content",
+    id: '4',
+    subject: 'Test trash',
+    content: 'Test trash content',
     folder: INBOX_FOLDER,
     isDeleted: true,
     isRead: false,
     isStarred: false,
     date: dayjs().toISOString(),
-    from: { name: "test", email: "test@test.com" },
+    from: { name: 'test', email: 'test@test.com' },
   },
 ];
 
-describe("filterByFolder", () => {
+describe('filterByFolder', () => {
   it('should return related emails for "inbox" folder', () => {
     const result = filterByFolder(INBOX_FOLDER, mockEmails);
     expect(result).toHaveLength(2);

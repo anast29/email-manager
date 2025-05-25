@@ -1,4 +1,4 @@
-import { ISender } from "./ISender";
+import { ISender } from './ISender';
 
 export interface IEmail {
     id: string;

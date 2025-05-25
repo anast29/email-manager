@@ -1,6 +1,6 @@
-import { NOT_FOUND_ROUTE } from "constants/Router";
-import { INBOX_FOLDER, STARRED_FOLDER, TRASH_FOLDER, SENT_FOLDER } from "constants/Folders";
-import { redirect } from "react-router";
+import { NOT_FOUND_ROUTE } from 'constants/Router';
+import { INBOX_FOLDER, STARRED_FOLDER, TRASH_FOLDER, SENT_FOLDER } from 'constants/Folders';
+import { redirect } from 'react-router';
 
 export const ALLOWED_FOLDERS = [
   INBOX_FOLDER,

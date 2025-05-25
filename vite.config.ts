@@ -19,7 +19,8 @@ const aliasEntries = [
   replacement: path.resolve(__dirname, `src/${dir}`),
 }));
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  base: command === "build" ? "/email-manager/" : "/",
   plugins: [react()],
   resolve: {
     alias: aliasEntries,
@@ -28,4 +29,4 @@ export default defineConfig({
     port: 4000,
     open: true,
   },
-});
+}));

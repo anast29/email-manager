@@ -1,13 +1,13 @@
-import React, { FC, useEffect, useState } from "react";
-import { useParams } from "react-router";
-import CircularProgress from "@mui/material/CircularProgress";
-import Stack from "@mui/material/Stack";
-import Typography from "@mui/material/Typography";
-import Divider from "@mui/material/Divider";
-import { useEmailStore } from "hooks";
-import { EmailListItem } from "./EmailListItem";
-import { EmailViewer } from "./EmailViewer";
-import { StyledList } from "./styled";
+import React, { FC, useEffect, useState } from 'react';
+import { useParams } from 'react-router';
+import CircularProgress from '@mui/material/CircularProgress';
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
+import Divider from '@mui/material/Divider';
+import { useEmailStore } from 'hooks';
+import { EmailListItem } from './EmailListItem';
+import { EmailViewer } from './EmailViewer';
+import { StyledList } from './styled';
 
 export const EmailsPage: FC = () => {
   const { emailId } = useParams();

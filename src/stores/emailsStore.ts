@@ -1,7 +1,7 @@
-import { BehaviorSubject, map, Observable, switchMap, timer } from "rxjs";
-import { IEmail } from "interfaces";
-import { filterByFolder } from "helpers";
-import { fetchEmails$ } from "services";
+import { BehaviorSubject, map, Observable, switchMap, timer } from 'rxjs';
+import { IEmail } from 'interfaces';
+import { filterByFolder } from 'helpers';
+import { fetchEmails$ } from 'services';
 
 const emailsSubject = new BehaviorSubject<IEmail[]>([]);
 

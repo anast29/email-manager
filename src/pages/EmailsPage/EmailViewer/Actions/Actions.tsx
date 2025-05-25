@@ -1,8 +1,8 @@
-import React, { FC, memo, useMemo } from "react";
-import { IEmail } from "interfaces";
-import Stack from "@mui/material/Stack";
-import IconButton from "@mui/material/IconButton";
-import { getActions } from "./getActions";
+import React, { FC, memo, useMemo } from 'react';
+import { IEmail } from 'interfaces';
+import Stack from '@mui/material/Stack';
+import IconButton from '@mui/material/IconButton';
+import { getActions } from './getActions';
 
 interface IProps {
   email: IEmail;

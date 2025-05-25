@@ -1,4 +1,4 @@
-import { IEmail } from "interfaces/IEmail";
+import { IEmail } from 'interfaces';
 
 interface IGetContextualMenuOptionsParams {
   email: IEmail;
@@ -18,18 +18,18 @@ export const getContextualMenuOptions = ({
   const { isRead, isStarred, isDeleted, folder } = email;
   return [
     {
-      id: "read",
-      title: isRead ? "Mark as unread" : "Mark as read",
+      id: 'read',
+      title: isRead ? 'Mark as unread' : 'Mark as read',
       onClick: () => onUpdateEmail({ isRead: !isRead }),
     },
     {
-      id: "starred",
-      title: isStarred ? "Mark as unstarred" : "Mark as starred",
+      id: 'starred',
+      title: isStarred ? 'Mark as unstarred' : 'Mark as starred',
       onClick: () => onUpdateEmail({ isStarred: !isStarred }),
     },
     {
-      id: "delete",
-      title: isDeleted ? "Move to inbox" : "Delete",
+      id: 'delete',
+      title: isDeleted ? 'Move to inbox' : 'Delete',
       onClick: () => onUpdateEmail({ isDeleted: !isDeleted }),
     },
   ];

@@ -1,14 +1,14 @@
-import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router";
+import { useEffect, useState } from 'react';
+import { useLoaderData } from 'react-router';
 import {
   filteredEmails$,
   fetchIncomingEmails$,
   setEmails,
   updateEmail,
   getCurrentEmails,
-} from "stores";
-import { IEmail } from "interfaces";
-import { updateEmail$ } from "services";
+} from 'stores';
+import { IEmail } from 'interfaces';
+import { updateEmail$ } from 'services';
 
 export function useEmailStore() {
   const { folder } = useLoaderData();

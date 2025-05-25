@@ -1,5 +1,5 @@
-import { IEmail } from "interfaces";
-import { INBOX_FOLDER, STARRED_FOLDER, TRASH_FOLDER, SENT_FOLDER } from "constants/Folders";
+import { IEmail } from 'interfaces';
+import { INBOX_FOLDER, STARRED_FOLDER, TRASH_FOLDER, SENT_FOLDER } from 'constants/Folders';
 
 export const filterByFolder = (currentFolder: string, emails: IEmail[]) => {
   switch (currentFolder) {

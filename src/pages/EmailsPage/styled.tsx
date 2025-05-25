@@ -1,5 +1,5 @@
-import { styled } from "@mui/material/styles";
-import List from "@mui/material/List";
+import { styled } from '@mui/material/styles';
+import List from '@mui/material/List';
 
 export const StyledList = styled(List)(({ theme }) => ({
     minWidth: 400,

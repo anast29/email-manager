@@ -1,9 +1,9 @@
-import React from "react";
-import { NavLink } from "react-router";
-import List from "@mui/material/List";
-import ListItemText from "@mui/material/ListItemText";
-import { SIDEBAR_OPTIONS } from "./sidebarOptions";
-import { StyledListItem, StyledDrawer, StyledListItemIcon } from "./styled";
+import React from 'react';
+import { NavLink } from 'react-router';
+import List from '@mui/material/List';
+import ListItemText from '@mui/material/ListItemText';
+import { SIDEBAR_OPTIONS } from './sidebarOptions';
+import { StyledListItem, StyledDrawer, StyledListItemIcon } from './styled';
 
 export const Sidebar = () => {
   return (

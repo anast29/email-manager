@@ -1,9 +1,9 @@
-import React, { FC } from "react";
-import { useNavigate } from "react-router";
-import Button from "@mui/material/Button";
-import Stack from "@mui/material/Stack";
-import Typography from "@mui/material/Typography";
-import { INBOX_ROUTE } from "constants/Router";
+import React, { FC } from 'react';
+import { useNavigate } from 'react-router';
+import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
+import { INBOX_ROUTE } from 'constants/Router';
 
 export const NotFoundPage: FC = () => {
   const navigate = useNavigate();

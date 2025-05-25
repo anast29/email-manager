@@ -1,1 +1,1 @@
-export { EmailViewer } from "./EmailViewer";
+export { EmailViewer } from './EmailViewer';

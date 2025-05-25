@@ -1,12 +1,12 @@
-import React, { FC, memo, useCallback, useMemo, MouseEvent } from "react";
-import IconButton from "@mui/material/IconButton";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
-import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
-import ListItemText from "@mui/material/ListItemText";
-import { useMenu } from "hooks";
-import { IEmail } from "interfaces";
-import { getContextualMenuOptions } from "./getContextualMenuOptions";
+import React, { FC, memo, useCallback, useMemo, MouseEvent } from 'react';
+import IconButton from '@mui/material/IconButton';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import ListItemText from '@mui/material/ListItemText';
+import { useMenu } from 'hooks';
+import { IEmail } from 'interfaces';
+import { getContextualMenuOptions } from './getContextualMenuOptions';
 
 interface IProps {
   email: IEmail;
@@ -41,12 +41,12 @@ export const ContextualMenu: FC<IProps> = memo(({ email, onUpdateEmail }) => {
         onClose={handleCloseMenu}
         onClick={handleCloseMenu}
         anchorOrigin={{
-          vertical: "top",
-          horizontal: "right",
+          vertical: 'top',
+          horizontal: 'right',
         }}
         transformOrigin={{
-          vertical: "top",
-          horizontal: "left",
+          vertical: 'top',
+          horizontal: 'left',
         }}
       >
         {options.map(({ id, title, onClick }) => (
