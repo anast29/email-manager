@@ -1,0 +1,292 @@
+[
+  {
+    "id": "1",
+    "subject": "Welcome to Email Manager!",
+    "content": "Hello and welcome to your new email inbox. Enjoy the experience.",
+    "folder": "inbox",
+    "from": { "name": "EmailBot", "email": "no-reply@emailmanager.com" },
+    "date": "2025-05-19T10:15:00Z",
+    "isRead": false,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "2",
+    "subject": "Meeting rescheduled",
+    "content": "The marketing sync has been moved to Thursday at 2PM.",
+    "folder": "inbox",
+    "from": { "name": "Alice Smith", "email": "alice@example.com" },
+    "date": "2025-05-18T08:30:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "3",
+    "subject": "Project Update",
+    "content": "Sent over the final assets. Let me know if you have any feedback.",
+    "folder": "inbox",
+    "from": { "name": "John Doe", "email": "john.doe@example.com" },
+    "date": "2025-05-17T14:00:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "4",
+    "subject": "Weekly Newsletter",
+    "content": "Here’s what’s new this week in tech and design...",
+    "folder": "inbox",
+    "from": { "name": "Tech Weekly", "email": "newsletter@techweekly.com" },
+    "date": "2024-04-15T07:45:00Z",
+    "isRead": true,
+    "isDeleted": true,
+    "isStarred": false
+  },
+  {
+    "id": "5",
+    "subject": "Flight Confirmation",
+    "content": "Your flight to New York has been confirmed. See itinerary inside.",
+    "folder": "inbox",
+    "from": { "name": "Airline Services", "email": "tickets@flynow.com" },
+    "date": "2023-06-14T11:20:00Z",
+    "isRead": false,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "6",
+    "subject": "Invoice for April",
+    "content": "Attached is your invoice for the month of April.",
+    "folder": "inbox",
+    "from": { "name": "Accounting Dept.", "email": "billing@company.com" },
+    "date": "2025-02-13T09:00:00Z",
+    "isRead": false,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "7",
+    "subject": "Coffee Meeting?",
+    "content": "Want to catch up over coffee this week?",
+    "folder": "inbox",
+    "from": { "name": "Megan Rivera", "email": "megan.r@example.com" },
+    "date": "2025-05-12T17:45:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "8",
+    "subject": "System Maintenance Notice",
+    "content": "Planned maintenance is scheduled for this weekend.",
+    "folder": "inbox",
+    "from": { "name": "IT Support", "email": "support@company.com" },
+    "date": "2025-02-11T08:15:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "9",
+    "subject": "Spotify Receipt",
+    "content": "Thanks for your payment. Here is your receipt.",
+    "folder": "inbox",
+    "from": { "name": "Spotify", "email": "no-reply@spotify.com" },
+    "date": "2025-03-10T16:22:00Z",
+    "isRead": false,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "10",
+    "subject": "Team Offsite",
+    "content": "Details for the upcoming team offsite are finalized.",
+    "folder": "inbox",
+    "from": { "name": "HR Team", "email": "hr@company.com" },
+    "date": "2025-04-09T12:00:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "11",
+    "subject": "Password Changed",
+    "content": "Your password was successfully updated.",
+    "folder": "inbox",
+    "from": { "name": "Security", "email": "security@service.com" },
+    "date": "2022-05-08T09:10:00Z",
+    "isRead": false,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "12",
+    "subject": "Job Application Received",
+    "content": "We have received your application. Our team will review it soon.",
+    "folder": "inbox",
+    "from": { "name": "Careers", "email": "jobs@startup.io" },
+    "date": "2025-05-07T15:55:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "13",
+    "subject": "Subscription Expiring",
+    "content": "Your subscription is about to expire. Renew now to avoid interruption.",
+    "folder": "inbox",
+    "from": { "name": "Cloud Storage", "email": "noreply@cloudbox.com" },
+    "date": "2020-01-06T18:40:00Z",
+    "isRead": false,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "14",
+    "subject": "Community Guidelines Update",
+    "content": "We’ve updated our community standards. Please review them.",
+    "folder": "inbox",
+    "from": { "name": "Forum Team", "email": "contact@forums.com" },
+    "date": "2023-05-05T13:05:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "15",
+    "subject": "Photo Album Shared",
+    "content": "Alex shared a photo album with you: Summer Vacation.",
+    "folder": "inbox",
+    "from": { "name": "Google Photos", "email": "photos@google.com" },
+    "date": "2025-05-04T11:30:00Z",
+    "isRead": false,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "16",
+    "subject": "Reminder: Doctor Appointment",
+    "content": "You have an appointment scheduled for May 22nd at 3PM.",
+    "folder": "inbox",
+    "from": { "name": "Health Clinic", "email": "appointments@healthclinic.com" },
+    "date": "2025-05-03T07:00:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "17",
+    "subject": "LinkedIn Connection Request",
+    "content": "You have a new connection request from Daniel Green.",
+    "folder": "inbox",
+    "from": { "name": "LinkedIn", "email": "notifications@linkedin.com" },
+    "date": "2025-05-02T14:20:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "18",
+    "subject": "Order Confirmation",
+    "content": "Your order #12345 has been confirmed. Estimated delivery: May 25.",
+    "folder": "inbox",
+    "from": { "name": "Online Store", "email": "orders@onlineshop.com" },
+    "date": "2025-05-01T10:10:00Z",
+    "isRead": false,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "19",
+    "subject": "Event Reminder: UX Conference",
+    "content": "Don’t forget the UX Design Conference is tomorrow!",
+    "folder": "inbox",
+    "from": { "name": "Event Team", "email": "info@uxconf.com" },
+    "date": "2025-04-30T09:50:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "20",
+    "subject": "We Miss You!",
+    "content": "Come back and get 25% off your next purchase.",
+    "folder": "inbox",
+    "from": { "name": "ShopNow", "email": "deals@shopnow.com" },
+    "date": "2025-04-29T06:30:00Z",
+    "isRead": false,
+    "isDeleted": true,
+    "isStarred": false
+  },
+  {
+    "id": "21",
+    "subject": "Follow-up on Proposal",
+    "content": "Hi team, just checking in to see if you had a chance to review the proposal I sent over.",
+    "folder": "sent",
+    "from": {
+      "name": "You",
+      "email": "me@example.com"
+    },
+    "date": "2025-05-24T15:10:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "22",
+    "subject": "Invoice Submission",
+    "content": "Please find attached the invoice for our April work. Let me know if you need anything else.",
+    "folder": "sent",
+    "from": {
+      "name": "You",
+      "email": "me@example.com"
+    },
+    "date": "2025-05-23T11:45:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "23",
+    "subject": "Vacation Notification",
+    "content": "I'll be out of office next week. For urgent matters, please contact my colleague Jane.",
+    "folder": "sent",
+    "from": {
+      "name": "You",
+      "email": "me@example.com"
+    },
+    "date": "2025-05-22T09:30:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": true
+  },
+  {
+    "id": "24",
+    "subject": "Meeting Agenda",
+    "content": "Here's the agenda for tomorrow's strategy meeting. Feel free to add topics if needed.",
+    "folder": "sent",
+    "from": {
+      "name": "You",
+      "email": "me@example.com"
+    },
+    "date": "2025-05-21T17:20:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  },
+  {
+    "id": "25",
+    "subject": "Website Feedback",
+    "content": "Great work on the new website launch. I had a couple of notes for the next sprint.",
+    "folder": "sent",
+    "from": {
+      "name": "You",
+      "email": "me@example.com"
+    },
+    "date": "2025-05-20T13:05:00Z",
+    "isRead": true,
+    "isDeleted": false,
+    "isStarred": false
+  }
+]

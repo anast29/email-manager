@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": ["jest", "node"],
+    "paths": {
+      "interfaces/*": ["src/interfaces/*"],
+      "pages": ["src/pages/*"],
+      "components/*": ["src/components/*"],
+      "enums/*": ["src/enums/*"],
+      "constants": ["src/constants/*"],
+      "layouts": ["src/layouts/*"],
+      "services/*": ["src/services/*"],
+      "hooks/*": ["src/hooks/*"],
+      "stores/*": ["src/stores/*"],
+      "helpers/*": ["src/helpers/*"]
+    }
+  }
+}
